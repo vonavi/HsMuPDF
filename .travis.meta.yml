@@ -1,0 +1,15 @@
+language: haskell-stack
+
+addons:
+  apt:
+    sources:
+    - sourceline: 'ppa:ubuntuhandbook1/apps'
+    packages:
+    - libmupdf-dev
+
+env:
+- GHCVER=8.4.3 STACK_YAML=stack.yaml
+
+branches:
+  only:
+  - master
