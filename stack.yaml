@@ -1,0 +1,11 @@
+resolver: lts-12.2
+
+packages:
+- '.'
+
+extra-deps:
+- inline-c-0.6.1.0
+
+flags: {}
+
+extra-package-dbs: []

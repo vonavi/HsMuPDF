@@ -1,0 +1,7 @@
+# Cabal sandbox junk
+/.cabal-sandbox/
+cabal.sandbox.config
+/dist/
+
+# Other files
+TAGS
