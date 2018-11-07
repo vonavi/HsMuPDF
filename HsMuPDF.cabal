@@ -1,5 +1,5 @@
 name:                HsMuPDF
-version:             0.1.0.0
+version:             0.0.0.0
 synopsis:            MuPDF binding for Haskell
 -- description:
 homepage:            https://github.com/vonavi/HsMuPDF#readme
@@ -17,7 +17,7 @@ extra-source-files:  ChangeLog.md
 
 library
   pkgconfig-depends:   mupdf
-  extra-libraries:     freetype
+  extra-libraries:     freetype, jbig2dec, jpeg, openjp2, z
   exposed-modules:     MuPDF.Pdf.Document
   other-modules:       MuPDF.Pdf.Internal
   ghc-options:         -Wall -funbox-strict-fields

@@ -3,9 +3,11 @@ language: haskell-stack
 addons:
   apt:
     sources:
-    - sourceline: 'ppa:ubuntuhandbook1/apps'
+    - sourceline: 'ppa:vlaiva/ppa'
     packages:
+    - libjbig2dec0-dev
     - libmupdf-dev
+    - libopenjp2-7-dev
 
 env:
 - GHCVER=8.4.3 STACK_YAML=stack.yaml
